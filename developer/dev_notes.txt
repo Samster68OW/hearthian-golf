@@ -1,0 +1,12 @@
+Developer Notes
+
+
+
+TODO:
+- N/A
+
+
+
+Open bugs that I cannot fix:
+    [Issue #1] The Clubhouse and Chip have no collision.
+    [Issue #3] Each tee should have medkits. (Ship_Body/Module_Supplies/Systems_Supplies/PlayerRecoveryPoint)

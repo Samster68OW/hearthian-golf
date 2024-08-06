@@ -1,0 +1,27 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/addon_manifest_schema.json",
+    "achievements": [
+        {
+            "ID": "HG_TALK_TO_CHIP",
+            "secret": false,
+            "factIDs": [ "MET_CHIP_FACT" ]
+        },
+        {
+            "ID": "HG_HEARTHIAN_MASTERY",
+            "secret": true,
+            "factIDs": [ "TIMBER_HEARTH_COMPLETE_FACT" ]
+        },
+        {
+            "ID": "HG_HOURGLASS_MASTERY",
+            "secret": true,
+            "factIDs": [ "HOURGLASS_COMPLETE_FACT" ]
+        },
+        {
+            "ID": "HG_FRONT_NINE_MASTER",
+            "secret": false,
+            "factIDs": [ "FINISHED_COURSE_FACT" ]
+        }
+    ],
+    "popupMessage": "MAIN_MENU_POPUP",
+    "repeatPopup": false
+}

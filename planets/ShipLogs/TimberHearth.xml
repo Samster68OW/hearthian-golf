@@ -1,0 +1,218 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>TIMBER_HEARTH</ID>
+
+
+
+  <Entry> <!-- An Entry For This Planet -->
+    <ID>GOLF_CLUBHOUSE</ID> <!-- The ID of this entry -->
+    <Name>GOLF_CLUBHOUSE_ENTRY_NAME</Name> <!-- The name to show for this entry both on the card and in map mode -->
+    <Curiosity>GOLF_CLUBHOUSE</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+    <IsCuriosity/> <!-- Marks this entry as a curiosity, makes it bigger in rumor mode and allows custom colors -->
+
+    <RumorFact>
+      <ID>GOLF_CLUBHOUSE_RUMOR</ID>
+      <SourceID>TH_VILLAGE</SourceID>
+      <RumorName>GOLF_CLUBHOUSE_RUMOR_NAME</RumorName>
+      <Text>GOLF_CLUBHOUSE_RUMOR_DESC</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>GOLF_CLUBHOUSE_FACT</ID>
+      <Text>GOLF_CLUBHOUSE_FACT_DESC</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>MET_CHIP_FACT</ID>
+      <Text>MET_CHIP_FACT_DESC</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>CURRENT_HIGHSCORE_FACT</ID>
+      <Text>CURRENT_HIGHSCORE_FACT_DESC</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>FINISHED_COURSE_FACT</ID>
+      <Text>FINISHED_COURSE_FACT_DESC</Text>
+    </ExploreFact>
+
+    <Entry>
+      <ID>GOLF_RULEBOOK</ID>
+      <Name>GOLF_RULEBOOK_NAME</Name>
+      <Curiosity>GOLF_CLUBHOUSE</Curiosity>
+
+      <ExploreFact>
+        <ID>RULE_ONE_FACT</ID>
+        <Text>RULE_ONE_FACT_DESC</Text>
+      </ExploreFact>
+      <ExploreFact>
+        <ID>RULE_TWO_FACT</ID>
+        <Text>RULE_TWO_FACT_DESC</Text>
+      </ExploreFact>
+      <ExploreFact>
+        <ID>RULE_THREE_FACT</ID>
+        <Text>RULE_THREE_FACT_DESC</Text>
+      </ExploreFact>
+    </Entry>
+  </Entry>
+
+
+
+  <Entry>
+    <ID>HOLE_ONE</ID>
+    <Name>HOLE_ONE_ENTRY_NAME</Name>
+    <Curiosity>GOLF_CLUBHOUSE</Curiosity>
+
+    <RumorFact>
+      <ID>HOLE_ONE_RUMOR</ID>
+      <SourceID>GOLF_CLUBHOUSE</SourceID>
+      <RumorName>HOLE_ONE_ENTRY_NAME</RumorName>
+      <Text>HOLE_RUMOR_DESC</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>HOLE_ONE_HOLE_FACT</ID>
+      <Text>HOLE_ONE_HOLE_FACT_DESC</Text>
+    </ExploreFact>
+
+    <Entry>
+      <ID>HOLE_ONE_TEE</ID>
+      <Name>TEE_ENTRY_NAME</Name>
+      <Curiosity>GOLF_CLUBHOUSE</Curiosity>
+
+      <ExploreFact>
+        <ID>HOLE_ONE_TEE_FACT</ID>
+        <Text>TEE_FACT_DESC</Text>
+      </ExploreFact>
+    </Entry>
+  </Entry>
+
+  
+
+  <Entry>
+    <ID>HOLE_TWO</ID>
+    <Name>HOLE_TWO_ENTRY_NAME</Name>
+    <Curiosity>GOLF_CLUBHOUSE</Curiosity>
+
+    <RumorFact>
+      <ID>HOLE_TWO_RUMOR</ID>
+      <SourceID>HOLE_ONE</SourceID>
+      <RumorName>HOLE_TWO_ENTRY_NAME</RumorName>
+      <Text>HOLE_RUMOR_DESC</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>HOLE_TWO_HOLE_FACT</ID>
+      <Text>HOLE_TWO_HOLE_FACT_DESC</Text>
+    </ExploreFact>
+
+    <Entry>
+      <ID>HOLE_TWO_TEE</ID>
+      <Name>TEE_ENTRY_NAME</Name>
+      <Curiosity>GOLF_CLUBHOUSE</Curiosity>
+
+      <ExploreFact>
+        <ID>HOLE_TWO_TEE_FACT</ID>
+        <Text>TEE_FACT_DESC</Text>
+      </ExploreFact>
+    </Entry>
+  </Entry>
+
+
+
+  <Entry>
+    <ID>HOLE_THREE</ID>
+    <Name>HOLE_THREE_ENTRY_NAME</Name>
+    <Curiosity>GOLF_CLUBHOUSE</Curiosity>
+
+    <RumorFact>
+      <ID>HOLE_THREE_RUMOR</ID>
+      <SourceID>HOLE_TWO</SourceID>
+      <RumorName>HOLE_THREE_ENTRY_NAME</RumorName>
+      <Text>HOLE_RUMOR_DESC</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>HOLE_THREE_HOLE_FACT</ID>
+      <Text>HOLE_THREE_HOLE_FACT_DESC</Text>
+    </ExploreFact>
+
+    <Entry>
+      <ID>HOLE_THREE_TEE</ID>
+      <Name>TEE_ENTRY_NAME</Name>
+      <Curiosity>GOLF_CLUBHOUSE</Curiosity>
+
+      <ExploreFact>
+        <ID>HOLE_THREE_TEE_FACT</ID>
+        <Text>TEE_FACT_DESC</Text>
+      </ExploreFact>
+    </Entry>
+  </Entry>
+
+
+
+  <Entry>
+    <ID>HOLE_FOUR</ID>
+    <Name>HOLE_FOUR_ENTRY_NAME</Name>
+    <Curiosity>GOLF_CLUBHOUSE</Curiosity>
+
+    <RumorFact>
+      <ID>HOLE_FOUR_RUMOR</ID>
+      <SourceID>HOLE_THREE</SourceID>
+      <RumorName>HOLE_FOUR_ENTRY_NAME</RumorName>
+      <Text>HOLE_RUMOR_DESC</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>HOLE_FOUR_HOLE_FACT</ID>
+      <Text>HOLE_FOUR_HOLE_FACT_DESC</Text>
+    </ExploreFact>
+
+    <Entry>
+      <ID>HOLE_FOUR_TEE</ID>
+      <Name>TEE_ENTRY_NAME</Name>
+      <Curiosity>GOLF_CLUBHOUSE</Curiosity>
+
+      <ExploreFact>
+        <ID>HOLE_FOUR_TEE_FACT</ID>
+        <Text>TEE_FACT_DESC</Text>
+      </ExploreFact>
+    </Entry>
+  </Entry>
+
+
+
+  <Entry>
+    <ID>HOLE_FIVE</ID>
+    <Name>HOLE_FIVE_ENTRY_NAME</Name>
+    <Curiosity>GOLF_CLUBHOUSE</Curiosity>
+
+    <RumorFact>
+      <ID>HOLE_FIVE_RUMOR</ID>
+      <SourceID>HOLE_FOUR</SourceID>
+      <RumorName>HOLE_FIVE_ENTRY_NAME</RumorName>
+      <Text>HOLE_RUMOR_DESC</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>HOLE_FIVE_HOLE_FACT</ID>
+      <Text>HOLE_FIVE_HOLE_FACT_DESC</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>TIMBER_HEARTH_COMPLETE_FACT</ID>
+      <Text>TIMBER_HEARTH_COMPLETE_FACT_DESC</Text>
+    </ExploreFact>
+
+    <Entry>
+      <ID>HOLE_FIVE_TEE</ID>
+      <Name>TEE_ENTRY_NAME</Name>
+      <Curiosity>GOLF_CLUBHOUSE</Curiosity>
+
+      <ExploreFact>
+        <ID>HOLE_FIVE_TEE_FACT</ID>
+        <Text>TEE_FACT_DESC</Text>
+      </ExploreFact>
+    </Entry>
+  </Entry>
+
+
+
+</AstroObjectEntry>

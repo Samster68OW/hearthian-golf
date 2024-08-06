@@ -1,0 +1,132 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>CAVE_TWIN</ID>
+
+
+
+  <Entry>
+    <ID>HOLE_SIX</ID>
+    <Name>HOLE_SIX_ENTRY_NAME</Name>
+    <Curiosity>GOLF_CLUBHOUSE</Curiosity>
+
+    <RumorFact>
+      <ID>HOLE_SIX_RUMOR</ID>
+      <SourceID>HOLE_FIVE</SourceID>
+      <RumorName>HOLE_SIX_ENTRY_NAME</RumorName>
+      <Text>HOLE_RUMOR_DESC</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>HOLE_SIX_HOLE_FACT</ID>
+      <Text>HOLE_SIX_HOLE_FACT_DESC</Text>
+    </ExploreFact>
+
+    <Entry>
+      <ID>HOLE_SIX_TEE</ID>
+      <Name>TEE_ENTRY_NAME</Name>
+      <Curiosity>GOLF_CLUBHOUSE</Curiosity>
+
+      <ExploreFact>
+        <ID>HOLE_SIX_TEE_FACT</ID>
+        <Text>TEE_FACT_DESC</Text>
+      </ExploreFact>
+    </Entry>
+  </Entry>
+
+
+  <Entry>
+    <ID>HOLE_SEVEN</ID>
+    <Name>HOLE_SEVEN_ENTRY_NAME</Name>
+    <Curiosity>GOLF_CLUBHOUSE</Curiosity>
+
+    <RumorFact>
+      <ID>HOLE_SEVEN_RUMOR</ID>
+      <SourceID>HOLE_SIX</SourceID>
+      <RumorName>HOLE_SEVEN_ENTRY_NAME</RumorName>
+      <Text>HOLE_RUMOR_DESC</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>HOLE_SEVEN_HOLE_FACT</ID>
+      <Text>HOLE_SEVEN_HOLE_FACT_DESC</Text>
+    </ExploreFact>
+
+    <Entry>
+      <ID>HOLE_SEVEN_TEE</ID>
+      <Name>TEE_ENTRY_NAME</Name>
+      <Curiosity>GOLF_CLUBHOUSE</Curiosity>
+
+      <ExploreFact>
+        <ID>HOLE_SEVEN_TEE_FACT</ID>
+        <Text>TEE_FACT_DESC</Text>
+      </ExploreFact>
+    </Entry>
+  </Entry>
+
+
+  <Entry>
+    <ID>HOLE_EIGHT</ID>
+    <Name>HOLE_EIGHT_ENTRY_NAME</Name>
+    <Curiosity>GOLF_CLUBHOUSE</Curiosity>
+
+    <RumorFact>
+      <ID>HOLE_EIGHT_RUMOR</ID>
+      <SourceID>HOLE_SEVEN</SourceID>
+      <RumorName>HOLE_EIGHT_ENTRY_NAME</RumorName>
+      <Text>HOLE_RUMOR_DESC</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>HOLE_EIGHT_HOLE_FACT</ID>
+      <Text>HOLE_EIGHT_HOLE_FACT_DESC</Text>
+    </ExploreFact>
+
+    <Entry>
+      <ID>HOLE_EIGHT_TEE</ID>
+      <Name>TEE_ENTRY_NAME</Name>
+      <Curiosity>GOLF_CLUBHOUSE</Curiosity>
+
+      <ExploreFact>
+        <ID>HOLE_EIGHT_TEE_FACT</ID>
+        <Text>TEE_FACT_DESC</Text>
+      </ExploreFact>
+    </Entry>
+  </Entry>
+
+
+  <Entry>
+    <ID>HOLE_NINE</ID>
+    <Name>HOLE_NINE_ENTRY_NAME</Name>
+    <Curiosity>GOLF_CLUBHOUSE</Curiosity>
+
+    <RumorFact>
+      <ID>HOLE_NINE_RUMOR</ID>
+      <SourceID>HOLE_EIGHT</SourceID>
+      <RumorName>HOLE_NINE_ENTRY_NAME</RumorName>
+      <Text>HOLE_RUMOR_DESC</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>HOLE_NINE_HOLE_FACT</ID>
+      <Text>HOLE_NINE_HOLE_FACT_DESC</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>HOURGLASS_COMPLETE_FACT</ID>
+      <Text>HOURGLASS_COMPLETE_FACT_DESC</Text>
+    </ExploreFact>
+
+    <Entry>
+      <ID>HOLE_NINE_TEE</ID>
+      <Name>TEE_ENTRY_NAME</Name>
+      <Curiosity>GOLF_CLUBHOUSE</Curiosity>
+
+      <ExploreFact>
+        <ID>HOLE_NINE_TEE_FACT</ID>
+        <Text>TEE_FACT_DESC</Text>
+      </ExploreFact>
+    </Entry>
+  </Entry>
+
+
+
+</AstroObjectEntry>

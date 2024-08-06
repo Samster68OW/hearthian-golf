@@ -1,0 +1,94 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+	"startHere": true,
+	"entryPositions": [
+		{
+			"id": "GOLF_CLUBHOUSE",
+			"position": {"x": 425, "y": 2000}
+		},
+		{
+			"id": "GOLF_RULEBOOK",
+			"position": {"x": 325, "y": 1850}
+		},
+		{
+			"id": "HOLE_ONE",
+			"position": {"x": 700, "y": 2000}
+		},
+		{
+			"id": "HOLE_ONE_TEE",
+			"position": {"x": 650, "y": 1925}
+		},
+		{
+			"id": "HOLE_TWO",
+			"position": {"x": 875, "y": 2000}
+		},
+		{
+			"id": "HOLE_TWO_TEE",
+			"position": {"x": 825, "y": 1925}
+		},
+		{
+			"id": "HOLE_THREE",
+			"position": {"x": 1050, "y": 2000}
+		},
+		{
+			"id": "HOLE_THREE_TEE",
+			"position": {"x": 1000, "y": 1925}
+		},
+		{
+			"id": "HOLE_FOUR",
+			"position": {"x": 1225, "y": 2000}
+		},
+		{
+			"id": "HOLE_FOUR_TEE",
+			"position": {"x": 1175, "y": 1925}
+		},
+		{
+			"id": "HOLE_FIVE",
+			"position": {"x": 1400, "y": 2000}
+		},
+		{
+			"id": "HOLE_FIVE_TEE",
+			"position": {"x": 1350, "y": 1925}
+		},
+		{
+			"id": "HOLE_SIX",
+			"position": {"x": 1575, "y": 2000}
+		},
+		{
+			"id": "HOLE_SIX_TEE",
+			"position": {"x": 1525, "y": 1925}
+		},
+		{
+			"id": "HOLE_SEVEN",
+			"position": {"x": 1750, "y": 2000}
+		},
+		{
+			"id": "HOLE_SEVEN_TEE",
+			"position": {"x": 1700, "y": 1925}
+		},
+		{
+			"id": "HOLE_EIGHT",
+			"position": {"x": 1925, "y": 2000}
+		},
+		{
+			"id": "HOLE_EIGHT_TEE",
+			"position": {"x": 1875, "y": 1925}
+		},
+		{
+			"id": "HOLE_NINE",
+			"position": {"x": 2100, "y": 2000}
+		},
+		{
+			"id": "HOLE_NINE_TEE",
+			"position": {"x": 2050, "y": 1925}
+		}
+	],
+	"initialReveal": [ "GOLF_CLUBHOUSE_RUMOR" ],
+	"curiosities": [
+		{
+			"color": {"r": 104, "g": 227, "b": 137, "a": 255},
+			"highlightColor": {"r": 146, "g": 232, "b": 169, "a": 255},
+			"id": "GOLF_CLUBHOUSE"
+		}
+	]
+}

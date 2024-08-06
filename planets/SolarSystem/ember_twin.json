@@ -1,0 +1,326 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "CAVE_TWIN",
+	"Props": {
+		"details": [
+
+
+			{
+				"rename": "Hole 6 Tee Table",
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+				"position": {"x": 11.6109, "y": 148.1047, "z": 18.9952},
+				"rotation": {"x": 347.3625, "y": 219.7791, "z": 0.0661},
+				"stretch": {"x": 4, "y": 2, "z": 3}
+			},
+			{
+				"rename": "Hole 6 Hole Table",
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+				"position": {"x": 52.2625, "y": -78.0901, "z": 127.3849},
+				"rotation": {"x": 311.8861, "y": 72.4048, "z": 138.0103},
+				"stretch": {"x": 4, "y": 2, "z": 3}
+			},
+			{
+				"rename": "Hole 6 Hole Flag",
+				"path": "Moon_Body/Sector_THM/Props_THM/OtherComponentsGroup/Props_HEA_LunarFlag/",
+				"position": {"x": 57.4581, "y": -79.3768, "z": 124.3463},
+				"rotation": {"x": 300.7384, "y": 27.7177, "z": 177.183}
+			},
+            {
+				"rename": "Hole 6 Fuel Tank",
+                "path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Prefab_HEA_FuelTank",
+                "position": {"x": 12.6216, "y": 149.0333, "z": 14.1745},
+				"rotation": {"x": 354.3144, "y": 222.8252, "z": 0.5861}
+            },
+
+
+			{
+				"rename": "Hole 7 Tee Table",
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+				"position": {"x": 80.5435, "y": -143.3587, "z": 21.4076},
+				"rotation": {"x":333.1395, "y": 42.194, "z": 195.615},
+				"stretch": {"x": 4, "y": 2, "z": 3}
+			},
+			{
+				"rename": "Hole 7 Hole Table",
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+				"position": {"x": -93.5893, "y": -130.9278, "z": -40.5934},
+				"rotation": {"x": 350.567, "y": 166.4023, "z": 218.1421},
+				"stretch": {"x": 4, "y": 2, "z": 3}
+			},
+			{
+				"rename": "Hole 7 Hole Flag",
+				"path": "Moon_Body/Sector_THM/Props_THM/OtherComponentsGroup/Props_HEA_LunarFlag/",
+				"position": {"x": -91.9633, "y": -130.1218, "z": -46.3283},
+				"rotation": {"x": 39.0309, "y": 68.0435, "z": 182.1863}
+			},
+
+
+			{
+				"rename": "Hole 8 Tee Table",
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+				"position": {"x": -75.238, "y": -123.4062, "z": 35.6867},
+				"rotation": {"x": 27.7071, "y": 132.6404, "z": 188.4508},
+				"stretch": {"x": 4, "y": 2, "z": 3}
+			},
+			{
+				"rename": "Hole 8 Hole Table",
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+				"position": {"x": -111.8378, "y": 129.2189, "z": 77.0589},
+				"rotation": {"x": 357.8119, "y": 213.1034, "z": 312.5334},
+				"stretch": {"x": 4, "y": 2, "z": 3}
+			},
+			{
+				"rename": "Hole 8 Hole Flag",
+				"path": "Moon_Body/Sector_THM/Props_THM/OtherComponentsGroup/Props_HEA_LunarFlag/",
+				"position": {"x": -114.7973, "y": 129.2473, "z": 72.7916},
+				"rotation": {"x": 45.1044, "y": 327.6615, "z": 16.461}
+			},
+            {
+				"rename": "Hole 8 Fuel Tank",
+                "path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Prefab_HEA_FuelTank",
+                "position": {"x": -73.955, "y": -126.5755, "z": 31.4891},
+				"rotation": {"x": 27.6306, "y": 99.1766, "z": 171.6613}
+            },
+
+
+			{
+				"rename": "Hole 9 Tee Table",
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+				"position": {"x": 34.1566, "y": 55.4814, "z": -153.8309},
+				"rotation": {"x": 290.3898, "y": 1.838, "z": 346.4168},
+				"stretch": {"x": 4, "y": 2, "z": 3}
+			},
+			{
+				"rename": "Hole 9 Hole Table",
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+				"position": {"x": 7.508, "y": -116.5087, "z": -118.2623},
+				"rotation": {"x": 3.4599, "y": 82.5871, "z": 224.7949},
+				"stretch": {"x": 4, "y": 2, "z": 3}
+			},
+			{
+				"rename": "Hole 9 Hole Flag",
+				"path": "Moon_Body/Sector_THM/Props_THM/OtherComponentsGroup/Props_HEA_LunarFlag/",
+				"position": {"x": 0.7115, "y": -115.7291, "z": -119.2302},
+				"rotation": {"x": 317.5146, "y": 157.5827, "z": 195.0847}
+			}
+
+
+		],
+		"entryLocation": [
+			{
+				"id": "HOLE_SIX",
+				"position": {"x": 53.3853, "y": -81.5643, "z": 130.7096}
+			},
+			{
+				"id": "HOLE_SIX_TEE",
+				"position": {"x": 11.6109, "y": 148.1047, "z": 18.9952}
+			},
+			{
+				"id": "HOLE_SEVEN",
+				"position": {"x": -96.7993, "y": -134.8991, "z": -41.4955}
+			},
+			{
+				"id": "HOLE_SEVEN_TEE",
+				"position": {"x": 80.5435, "y": -143.3587, "z": 21.4076}
+			},
+			{
+				"id": "HOLE_EIGHT",
+				"position": {"x": -114.0524, "y": 132.1608, "z": 78.8188}
+			},
+			{
+				"id": "HOLE_EIGHT_TEE",
+				"position": {"x": -75.238, "y": -123.4062, "z": 35.6867}
+			},
+			{
+				"id": "HOLE_NINE",
+				"position": {"x": 7.9634, "y": -119.8602, "z": -121.5662}
+			},
+			{
+				"id": "HOLE_NINE_TEE",
+				"position": {"x": 34.1566, "y": 55.4814, "z": -153.8309}
+			}
+		],
+		"singularities": [
+			{
+				"rename": "Hole 6 White Hole",
+				"uniqueID": "HOLE_SIX_WHITE",
+				"type": "whiteHole",
+				"pairedSingularity": "HOLE_FIVE_BLACK",
+				"position": {"x": 2.7301, "y": 158.6801, "z": 5.4244},
+				"horizonRadius": 0.5,
+				"distortRadius": 0.75,
+				"hasWarpEffects": true
+			},
+			{
+				"rename": "Hole 6 Black Hole",
+				"uniqueID": "HOLE_SIX_BLACK",
+				"type": "blackHole",
+				"pairedSingularity": "HOLE_SEVEN_WHITE",
+				"position": {"x": 53.3853, "y": -81.5643, "z": 130.7096},
+				"horizonRadius": 1.5,
+				"distortRadius": 2,
+				"hasWarpEffects": true
+			},
+			{
+				"rename": "Hole 7 White Hole",
+				"uniqueID": "HOLE_SEVEN_WHITE",
+				"type": "whiteHole",
+				"pairedSingularity": "HOLE_SIX_BLACK",
+				"position": {"x": 90.5342, "y": -143.3587, "z": 30.7625},
+				"horizonRadius": 0.5,
+				"distortRadius": 0.75,
+				"hasWarpEffects": true
+			},
+			{
+				"rename": "Hole 7 Black Hole",
+				"uniqueID": "HOLE_SEVEN_BLACK",
+				"type": "blackHole",
+				"pairedSingularity": "HOLE_EIGHT_WHITE",
+				"position": {"x": -96.7993, "y": -134.8991, "z": -41.4955},
+				"horizonRadius": 1.5,
+				"distortRadius": 2,
+				"hasWarpEffects": true
+			},
+			{
+				"rename": "Hole 8 White Hole",
+				"uniqueID": "HOLE_EIGHT_WHITE",
+				"type": "whiteHole",
+				"pairedSingularity": "HOLE_SEVEN_BLACK",
+				"position": {"x": -67.0192, "y": -134.3862, "z": 34.1626},
+				"horizonRadius": 0.5,
+				"distortRadius": 0.75,
+				"hasWarpEffects": true
+			},
+			{
+				"rename": "Hole 8 Black Hole",
+				"uniqueID": "HOLE_EIGHT_BLACK",
+				"type": "blackHole",
+				"pairedSingularity": "HOLE_NINE_WHITE",
+				"position": {"x": -114.0524, "y": 132.1608, "z": 78.8188},
+				"horizonRadius": 1.5,
+				"distortRadius": 2,
+				"hasWarpEffects": true
+			},
+			{
+				"rename": "Hole 9 White Hole",
+				"uniqueID": "HOLE_NINE_WHITE",
+				"type": "whiteHole",
+				"pairedSingularity": "HOLE_EIGHT_BLACK",
+				"position": {"x": 34.3161, "y": 66.3909, "z": -153.8309},
+				"horizonRadius": 0.5,
+				"distortRadius": 0.75,
+				"hasWarpEffects": true
+			},
+			{
+				"rename": "Hole 9 Black Hole",
+				"uniqueID": "HOLE_NINE_BLACK",
+				"type": "blackHole",
+				"pairedSingularity": "HOLE_FINAL_WHITE",
+				"position": {"x": 7.9634, "y": -119.8602, "z": -121.5662},
+				"horizonRadius": 1.5,
+				"distortRadius": 2,
+				"hasWarpEffects": true
+			}
+		]
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"xmlFile": "planets/ShipLogs/Ember_Twin.xml"
+    },
+	"Volumes": {
+		"notificationVolumes": [
+			{
+				"rename": "Hole 6 Notification Volume",
+				"entryNotification": {"displayMessage": "Hole 6: Chert (260m, Par 4)"},
+				"position": {"x": 11.6109, "y": 148.1047, "z": 18.9952},
+				"radius": 6,
+				"target": "player"
+			},
+			{
+				"rename": "Hole 7 Notification Volume",
+				"entryNotification": {"displayMessage": "Hole 7: Locator (190m, Par 4)"},
+				"position": {"x": 80.5435, "y": -143.3587, "z": 21.4076},
+				"radius": 6,
+				"target": "player"
+			},
+			{
+				"rename": "Hole 8 Notification Volume",
+				"entryNotification": {"displayMessage": "Hole 8: Escape Pod (260m, Par 5)"},
+				"position": {"x": -75.238, "y": -123.4062, "z": 35.6867},
+				"radius": 6,
+				"target": "player"
+			},
+			{
+				"rename": "Hole 9 Notification Volume",
+				"entryNotification": {"displayMessage": "Hole 9: Gravity Cannon (180m, Par 4)"},
+				"position": {"x": 34.1566, "y": 55.4814, "z": -153.8309},
+				"radius": 6,
+				"target": "player"
+			}
+		],
+		"oxygenVolumes": [
+			{
+				"rename": "Hole 6 Oxygen Volume",
+				"position": {"x": 11.6109, "y": 148.1047, "z": 18.9952},
+				"radius": 6
+			},
+			{
+				"rename": "Hole 7 Oxygen Volume",
+				"position": {"x": 80.5435, "y": -143.3587, "z": 21.4076},
+				"radius": 6
+			},
+			{
+				"rename": "Hole 8 Oxygen Volume",
+				"position": {"x": -75.238, "y": -123.4062, "z": 35.6867},
+				"radius": 6
+			},
+			{
+				"rename": "Hole 9 Oxygen Volume",
+				"position": {"x": 34.1566, "y": 55.4814, "z": -153.8309},
+				"radius": 6
+			}
+		],
+		"revealVolumes": [
+			{
+				"rename": "Hole 6 Ship Log Volume",
+				"reveals": [ "HOLE_SIX_HOLE_FACT", "HOLE_SIX_RUMOR", "HOLE_SIX_TEE_FACT" ],
+				"position": {"x": 11.6109, "y": 148.1047, "z": 18.9952},
+				"radius": 6,
+				"revealOn": "enter",
+				"revealFor": "player"
+			},
+			{
+				"rename": "Hole 7 Ship Log Volume",
+				"reveals": [ "HOLE_SEVEN_HOLE_FACT", "HOLE_SEVEN_RUMOR", "HOLE_SEVEN_TEE_FACT" ],
+				"position": {"x": 80.5435, "y": -143.3587, "z": 21.4076},
+				"radius": 6,
+				"revealOn": "enter",
+				"revealFor": "player"
+			},
+			{
+				"rename": "Hole 8 Ship Log Volume",
+				"reveals": [ "HOLE_EIGHT_HOLE_FACT", "HOLE_EIGHT_RUMOR", "HOLE_EIGHT_TEE_FACT" ],
+				"position": {"x": -75.238, "y": -123.4062, "z": 35.6867},
+				"radius": 6,
+				"revealOn": "enter",
+				"revealFor": "player"
+			},
+			{
+				"rename": "Hole 9 Ship Log Volume",
+				"reveals": [ "HOLE_NINE_HOLE_FACT", "HOLE_NINE_RUMOR", "HOLE_NINE_TEE_FACT" ],
+				"position": {"x": 34.1566, "y": 55.4814, "z": -153.8309},
+				"radius": 6,
+				"revealOn": "enter",
+				"revealFor": "player"
+			},
+			{
+				"rename": "Hourglass Completion Volume",
+				"reveals": [ "HOURGLASS_COMPLETE_FACT" ],
+				"position": {"x": 7.9634, "y": -119.8602, "z": -121.5662},
+				"radius": 3,
+				"revealOn": "enter",
+				"revealFor": "both"
+			}
+		]
+	}
+}

@@ -1,0 +1,123 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+    "DialogueDictionary": {
+
+
+        "CLUBHOUSE_INVITATION_PAGE_1": "Heya, hatchling! This is Chip! I'm so excited to watch you take off from Timber Hearth today.",
+        "CLUBHOUSE_INVITATION_PAGE_2": "Before that, how about you drop by the <![CDATA[<color=orange>Clubhouse</color>]]> for a quick game of <![CDATA[<color=orange>Hearthian Golf</color>]]>? It'll be great practice using the scout!",
+        "CLUBHOUSE_INVITATION_PAGE_3": "I've added the location of the Clubhouse to your ship log. Once you've got the launch codes, use your new <![CDATA[<color=orange>Suit Log</color>]]> to mark the location of the Clubhouse, then meet me there!",
+
+
+        "HIGHSCORE_PAPER_PAGE_1": "Heya! Just a quick note from your favorite astronaut, Feldspar!",
+        "HIGHSCORE_PAPER_PAGE_2": "In my quest to conquer the Outer Wilds, I had to first conquer this golf course. I was able to do so in <![CDATA[<color=orange>32 strokes</color>]]>!",
+        "HIGHSCORE_PAPER_PAGE_3": "Good luck if you think you can beat it!",
+
+
+        "CHIP_NODE_S_PAGE_1": "Heya, hatchling! Welcome to the Clubhouse!",
+
+        "CHIP_NODE_1_PAGE_1": "Do you have any questions about Hearthian Golf?",
+        "CHIP_NODE_1_OPT_1": "How do you play Hearthian Golf?",
+        "CHIP_NODE_1_OPT_2": "Are there any weird rules?",
+        "CHIP_NODE_1_OPT_3": "Do you have any tips to improve my score?",
+        "CHIP_NODE_1_OPT_4": "I completed the course!",
+        "CHIP_NODE_1_OPT_5": "I'm ready to play!",
+
+        "CHIP_NODE_2_PAGE_1": "In Hearthian Golf, we launch the scout from a starting location called the <![CDATA[<color=orange>tee</color>]]>, and try to land it inside of the hole. In this case, a literal <![CDATA[<color=orange>black hole</color>]]>.",
+        "CHIP_NODE_2_PAGE_2": "If your shot misses the hole, use your jetpack to fly to the spot where your scout landed. Then recall your scout and fire it again. Keep going until it goes into the black hole.",
+        "CHIP_NODE_2_PAGE_3": "Every time you fire your scout, that is considered a <![CDATA[<color=orange>stroke</color>]]>. Your goal is to complete the course in the <![CDATA[<color=orange>least amount of strokes</color>]]>. I left my pencil and paper back at the village, so you'll have to count them yourself.",
+        "CHIP_NODE_2_PAGE_4": "After you score a scout into a hole, jump into it yourself to go to the next tee.",
+        "CHIP_NODE_2_PAGE_5": "The tee for the first hole is <![CDATA[<color=orange>right behind the Clubhouse</color>]]>. When you stand on it, use your Suit Log to mark the location of the hole on your HUD. That will make it much easier to locate the hole!",
+
+        "CHIP_NODE_3_PAGE_1": "Hearthain Golf has special rules due to the <![CDATA[<color=orange>unique properties of the scout</color>]]>.",
+        "CHIP_NODE_3_PAGE_2": "First, the <![CDATA[<color=orange>tee off shot is free</color>]]>. You can make as many attempts as you want on your tee off. However, once you step off the tee, the shot counts as your first stroke.",
+        "CHIP_NODE_3_PAGE_3": "Once you reach your scout, you may only recall it if you are standing still and within <![CDATA[<color=orange>10 meters</color>]]> of it. If you cannot recall it, it is considered <![CDATA[<color=orange>out of bounds</color>]]>. Take your next shot from the nearest available spot and add an additional stroke to your score.",
+        "CHIP_NODE_3_PAGE_4": "Also, please don't use your ship for any shenanigans. We don't want to ruin all of Slate's work!",
+
+        "CHIP_NODE_4_PAGE_1": "Yes, I do! Remember that the angle and target at which you fire your scout greatly effects the power that it is fired at. <![CDATA[<color=orange>The power of your shot can vary wildly with different angles</color>]]>.",
+        "CHIP_NODE_4_PAGE_2": "Your scout is powerful and it can easily get away from you. Keep it low and use tall terrain like trees and mountains to control where it lands.",
+        "CHIP_NODE_4_PAGE_3": "Finally, don't play by yourself. Hearthian Golf is a lot more fun when you <![CDATA[<color=orange>invite your friends to play with you</color>]]>!",
+
+        "CHIP_NODE_5_PAGE_1": "Congratulations, hatchling! How'd you do? Are you satisfied with your score?",
+        "CHIP_NODE_5_PAGE_2": "If you want to attempt a hole again, remember that you can use your Suit Log to mark the tee of the hole. If you're all done for now, thanks for playing!",
+        "CHIP_NODE_5_PAGE_3": "I am currently working with other hearthians to develop <![CDATA[<color=orange>more golf courses</color>]]>. I'll give you a ring when they're done.",
+        
+        "CHIP_NODE_E_PAGE_1": "Have fun out there! I've put all the rules to Hearthian Golf in your ship log. <![CDATA[<color=orange>Return to me</color>]]> when you are finished!"
+
+
+    },
+    "ShipLogDictionary": {
+
+
+        "GOLF_CLUBHOUSE_ENTRY_NAME": "The Clubhouse",
+        "GOLF_CLUBHOUSE_RUMOR_NAME": "Hearthian Golf?",
+        "GOLF_CLUBHOUSE_RUMOR_DESC": "There is a note located at my campsite.",
+        "GOLF_CLUBHOUSE_FACT_DESC": "The Clubhouse is located somewhere outside the Village. I should use my Suit Log to mark the location on my HUD.",
+        "MET_CHIP_FACT_DESC": "Chip introduced me to Hearthian Golf. The first tee is located behind the Clubhouse.",
+        "CURRENT_HIGHSCORE_FACT_DESC": "Feldspar was able to score 32 on the golf course.",
+        "FINISHED_COURSE_FACT_DESC": "I finished The Front Nine course!",
+
+
+        "GOLF_RULEBOOK_NAME": "The Rulebook",
+        "RULE_ONE_FACT_DESC": "<![CDATA[<color=green>Objective:</color>]]> Try to complete each hole on the golf course in the least amount of strokes.",
+        "RULE_TWO_FACT_DESC": "<![CDATA[<color=green>Tee off:</color>]]> Once you step onto the tee, mark the location of the hole using your Suit Log HUD. Then, start taking tee off shots. When you've made one you're satisfied with, fly to it using your jetpack.",
+        "RULE_THREE_FACT_DESC": "<![CDATA[<color=green>Follow-up shots:</color>]]> You may recall the scout to take your next shot once you are standing still and you are within 10m of the scout. If you cannot do this, stand as close as you can to take your next shot, and add an additional stroke to your score.",
+
+        
+        "HOLE_ONE_ENTRY_NAME": "Hole 1",
+        "HOLE_ONE_HOLE_FACT_DESC": "<![CDATA[<color=green>Hole 1:</color>]]> Field (285m, Par 2)",
+        "HOLE_TWO_ENTRY_NAME": "Hole 2",
+        "HOLE_TWO_HOLE_FACT_DESC": "<![CDATA[<color=green>Hole 2:</color>]]> Mountains (370m, Par 3)",
+        "HOLE_THREE_ENTRY_NAME": "Hole 3",
+        "HOLE_THREE_HOLE_FACT_DESC": "<![CDATA[<color=green>Hole 3:</color>]]> Grove (260m, Par 3)",
+        "HOLE_FOUR_ENTRY_NAME": "Hole 4",
+        "HOLE_FOUR_HOLE_FACT_DESC": "<![CDATA[<color=green>Hole 4:</color>]]> Waterfall (185m, Par 4)",
+        "HOLE_FIVE_ENTRY_NAME": "Hole 5",
+        "HOLE_FIVE_HOLE_FACT_DESC": "<![CDATA[<color=green>Hole 5:</color>]]> Bramble Seed (320m, Par 3)",
+        "TIMBER_HEARTH_COMPLETE_FACT_DESC": "I have completed all of the Timber Hearth holes.",
+        "HOLE_SIX_ENTRY_NAME": "Hole 6",
+        "HOLE_SIX_HOLE_FACT_DESC": "<![CDATA[<color=green>Hole 6</color>]]> Chert (260m, Par 4)",
+        "HOLE_SEVEN_ENTRY_NAME": "Hole 7",
+        "HOLE_SEVEN_HOLE_FACT_DESC": "<![CDATA[<color=green>Hole 7:</color>]]> Locator (190m, Par 4)",
+        "HOLE_EIGHT_ENTRY_NAME": "Hole 8",
+        "HOLE_EIGHT_HOLE_FACT_DESC": "<![CDATA[<color=green>Hole 8:</color>]]> Escape Pod (260m, Par 5)",
+        "HOLE_NINE_ENTRY_NAME": "Hole 9",
+        "HOLE_NINE_HOLE_FACT_DESC": "<![CDATA[<color=green>Hole 9:</color>]]> Gravity Cannon (180m, Par 4)",
+        "HOURGLASS_COMPLETE_FACT_DESC": "I have completed all of the Hourglass holes.",
+
+
+        "HOLE_RUMOR_DESC": "I should mark this entry in my Ship Log to see where the hole is.",
+        "TEE_ENTRY_NAME": "Tee",
+        "TEE_FACT_DESC": "Mark this entry to locate the tee for this hole."
+
+
+    },
+    "UIDictionary": {
+
+
+        "MAIN_MENU_POPUP": "Thank you for downloading Hearthian Golf! Look for a note at the launch pad elevator."
+
+
+    },
+    "AchievementTranslations": {
+
+
+        "HG_TALK_TO_CHIP" : {
+			"Name": "Ready to Tee Off!",
+			"Description": "Talk to Chip at the Clubhouse."
+		},
+        "HG_HEARTHIAN_MASTERY" : {
+			"Name": "Hearthian Mastery",
+			"Description": "Complete the Timber Hearth holes."
+		},
+        "HG_HOURGLASS_MASTERY" : {
+			"Name": "Hourglass Mastery",
+			"Description": "Complete the Hourglass Twin holes."
+		},
+        "HG_FRONT_NINE_MASTER" : {
+			"Name": "Front Nine Master",
+			"Description": "Complete the Front Nine holes."
+		}
+
+
+    }
+}

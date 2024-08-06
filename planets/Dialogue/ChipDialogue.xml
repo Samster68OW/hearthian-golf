@@ -1,0 +1,110 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+	<NameField>Chip</NameField>
+
+
+	<DialogueNode>
+		<Name>Start</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>CHIP_NODE_S_PAGE_1</Page>
+		</Dialogue>
+		<DialogueTarget>1</DialogueTarget>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>CHIP_NODE_1_PAGE_1</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>CHIP_NODE_1_OPT_1</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>CHIP_NODE_1_OPT_2</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>CHIP_NODE_1_OPT_3</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>CHIP_NODE_1_OPT_4</Text>
+				<DialogueTarget>5</DialogueTarget>
+				<RequiredLogCondition>HOURGLASS_COMPLETE_FACT</RequiredLogCondition>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>CHIP_NODE_1_OPT_5</Text>
+				<DialogueTarget>End</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>CHIP_NODE_2_PAGE_1</Page>
+			<Page>CHIP_NODE_2_PAGE_2</Page>
+			<Page>CHIP_NODE_2_PAGE_3</Page>
+			<Page>CHIP_NODE_2_PAGE_4</Page>
+			<Page>CHIP_NODE_2_PAGE_5</Page>
+		</Dialogue>
+		<DialogueTarget>1</DialogueTarget>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>CHIP_NODE_3_PAGE_1</Page>
+			<Page>CHIP_NODE_3_PAGE_2</Page>
+			<Page>CHIP_NODE_3_PAGE_3</Page>
+			<Page>CHIP_NODE_3_PAGE_4</Page>
+		</Dialogue>
+		<DialogueTarget>1</DialogueTarget>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>4</Name>
+		<Dialogue>
+			<Page>CHIP_NODE_4_PAGE_1</Page>
+			<Page>CHIP_NODE_4_PAGE_2</Page>
+			<Page>CHIP_NODE_4_PAGE_3</Page>
+		</Dialogue>
+		<DialogueTarget>1</DialogueTarget>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>5</Name>
+		<Dialogue>
+			<Page>CHIP_NODE_5_PAGE_1</Page>
+			<Page>CHIP_NODE_5_PAGE_2</Page>
+			<Page>CHIP_NODE_5_PAGE_3</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>FINISHED_COURSE_FACT</FactID>
+		</RevealFacts>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>End</Name>
+		<Dialogue>
+			<Page>CHIP_NODE_E_PAGE_1</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>MET_CHIP_FACT</FactID>
+			<FactID>RULE_ONE_FACT</FactID>
+			<FactID>RULE_TWO_FACT</FactID>
+			<FactID>RULE_THREE_FACT</FactID>
+		</RevealFacts>
+	</DialogueNode>
+
+
+</DialogueTree>
