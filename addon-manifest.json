@@ -17,6 +17,11 @@
             "factIDs": [ "HOURGLASS_COMPLETE_FACT" ]
         },
         {
+            "ID": "HG_FOUND_BANJO",
+            "secret": true,
+            "factIDs": [ "FOUND_BANJO_FACT" ]
+        },
+        {
             "ID": "HG_FRONT_NINE_MASTER",
             "secret": false,
             "factIDs": [ "FINISHED_COURSE_FACT" ]

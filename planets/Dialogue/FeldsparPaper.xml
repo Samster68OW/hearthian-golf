@@ -1,0 +1,20 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+	<NameField>SIGN</NameField>
+
+
+	<DialogueNode>
+		<Name>Start</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>FELDSPAR_PAPER_PAGE_1</Page>
+			<Page>FELDSPAR_PAPER_PAGE_2</Page>
+			<Page>FELDSPAR_PAPER_PAGE_3</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>FELDSPAR_HIGHSCORE_FACT</FactID>
+		</RevealFacts>
+	</DialogueNode>
+
+
+</DialogueTree>

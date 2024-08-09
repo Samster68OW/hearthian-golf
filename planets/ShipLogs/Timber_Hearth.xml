@@ -25,8 +25,12 @@
       <Text>MET_CHIP_FACT_DESC</Text>
     </ExploreFact>
     <ExploreFact>
-      <ID>CURRENT_HIGHSCORE_FACT</ID>
-      <Text>CURRENT_HIGHSCORE_FACT_DESC</Text>
+      <ID>FELDSPAR_HIGHSCORE_FACT</ID>
+      <Text>FELDSPAR_HIGHSCORE_FACT_DESC</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>ERNESTO_HIGHSCORE_FACT</ID>
+      <Text>ERNESTO_HIGHSCORE_FACT_DESC</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>FINISHED_COURSE_FACT</ID>

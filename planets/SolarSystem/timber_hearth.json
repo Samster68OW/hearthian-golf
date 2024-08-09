@@ -24,17 +24,40 @@
 				"rotation": {"x": 356.0385, "y": 19.3821, "z": 54.8192},
 				"removeChildren": [ "ConversationZone" ]
 			},
-            {
-				"rename": "Clubhouse Fuel Tank",
-                "path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Prefab_HEA_FuelTank",
-                "position": {"x": -196.7621, "y": 141.6484, "z": 61.6932},
-				"rotation": {"x": 359.3397, "y": 17.6526, "z": 55.7869}
-            },
 			{
-				"rename": "Highscore Paper",
+				"rename": "Clubhouse Whiteboard",
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District2/Interactables_HangingCity_District2/VisibleFrom_HangingCity/Props_NOM_Whiteboard (1)",
+				"position": {"x": -200.0121, "y": 135.0408, "z": 64.6942},
+				"rotation": {"x": 306.6176, "y": 76.9581, "z": 25.394}
+			},
+			{
+				"rename": "Feldspar Paper",
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/Prefab_HEA_DeepFieldExhibit/DeepFieldNotes_1/plaque_paper_1 (1)",
-				"position": {"x": -198.6303, "y": 138.8915, "z": 61.226},
-				"rotation": {"x": 354.887, "y": 342.4629, "z": 50.9391}
+				"position": {"x": -202.263, "y": 136.8376, "z": 64.0075},
+				"rotation": {"x": 8.1064, "y": 92.7996, "z": 11.8537}
+			},
+			{
+				"rename": "Ernesto Paper",
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/Prefab_HEA_DeepFieldExhibit/DeepFieldNotes_1/plaque_paper_1 (1)",
+				"position": {"x": -201.1199, "y": 135.6358, "z": 66.412},
+				"rotation": {"x": 8.5825, "y": 74.6141, "z": 0.0042}
+			},
+
+
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {"x": -191.5168, "y": 149.2421, "z": 59.1343},
+				"rotation": {"x": 21.3708, "y": 0.3491, "z": 50.1466}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {"x": -201.4606, "y": 132.9064, "z": 64.6676},
+				"rotation": {"x": 1.2043, "y": 16.9241, "z": 57.2538}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {"x": -186.5892, "y": 153.3513, "z": 64.1354},
+				"rotation": {"x": 36.814, "y": 343.1383, "z": 39.9772}
 			},
 
 
@@ -58,6 +81,12 @@
 				"position": {"x": -141.1063, "y": 78.9776, "z": -219.0145},
 				"rotation": {"x": 321.3842, "y": 316.9491, "z": 67.8085}
 			},
+            {
+				"rename": "Hole 1 Fuel Tank",
+                "path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Prefab_HEA_FuelTank",
+                "position": {"x": -205.7089, "y": 132.2142, "z": 51.5423},
+				"rotation": {"x": 333.2532, "y": 315.8963, "z": 0}
+            },
 
 
 			{
@@ -177,11 +206,18 @@
 				"xmlFile": "planets/Dialogue/ChipDialogue.xml"
 			},
 			{
-				"rename": "Highscore Paper",
-				"position": {"x": -198.6303, "y": 138.8915, "z": 61.226},
+				"rename": "Feldspar Highscore Paper",
+				"position": {"x": -202.263, "y": 136.8376, "z": 64.0075},
 				"radius": 0.5,
 				"range": 1.6,
-				"xmlFile": "planets/Dialogue/HighscorePaper.xml"
+				"xmlFile": "planets/Dialogue/FeldsparPaper.xml"
+			},
+			{
+				"rename": "Ernesto Highscore Paper",
+				"position": {"x": -201.1199, "y": 135.6358, "z": 66.412},
+				"radius": 0.5,
+				"range": 1.6,
+				"xmlFile": "planets/Dialogue/ErnestoPaper.xml"
 			}
 		],
 		"entryLocation": [
@@ -266,7 +302,7 @@
 				"uniqueID": "HOLE_THREE_WHITE",
 				"type": "whiteHole",
 				"pairedSingularity": "HOLE_TWO_BLACK",
-				"position": {"x": 273.1022, "y": -16.2779, "z": 33.5671},
+				"position": {"x": 276.2754, "y": -14.1179, "z": 33.5667},
 				"horizonRadius": 0.5,
 				"distortRadius": 0.75,
 				"hasWarpEffects": true
@@ -326,7 +362,7 @@
 				"uniqueID": "HOLE_FINAL_WHITE",
 				"type": "whiteHole",
 				"pairedSingularity": "HOLE_NINE_BLACK",
-				"position": {"x": -193.9531, "y": 149.5019, "z": 67.8467},
+				"position": {"x": -183.8287, "y": 145.5302, "z": 96.0801},
 				"horizonRadius": 0.5,
 				"distortRadius": 0.75,
 				"hasWarpEffects": true
@@ -335,7 +371,7 @@
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/ShipLogs/sprites",
-		"xmlFile": "planets/ShipLogs/TimberHearth.xml"
+		"xmlFile": "planets/ShipLogs/Timber_Hearth.xml"
     },
 	"Volumes": {
 		"notificationVolumes": [
@@ -447,7 +483,7 @@
 				"rename": "Timber Hearth Completion Volume",
 				"reveals": [ "TIMBER_HEARTH_COMPLETE_FACT" ],
 				"position": {"x": 111.4743, "y": 184.0945, "z": -13.8298},
-				"radius": 3,
+				"radius": 2,
 				"revealOn": "enter",
 				"revealFor": "both"
 			}

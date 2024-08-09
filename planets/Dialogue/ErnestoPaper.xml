@@ -7,12 +7,12 @@
 		<Name>Start</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>HIGHSCORE_PAPER_PAGE_1</Page>
-			<Page>HIGHSCORE_PAPER_PAGE_2</Page>
-			<Page>HIGHSCORE_PAPER_PAGE_3</Page>
+			<Page>ERNESTO_PAPER_PAGE_1</Page>
+			<Page>ERNESTO_PAPER_PAGE_2</Page>
+			<Page>ERNESTO_PAPER_PAGE_3</Page>
 		</Dialogue>
 		<RevealFacts>
-			<FactID>CURRENT_HIGHSCORE_FACT</FactID>
+			<FactID>ERNESTO_HIGHSCORE_FACT</FactID>
 		</RevealFacts>
 	</DialogueNode>
 

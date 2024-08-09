@@ -31,13 +31,19 @@
                 "position": {"x": 12.6216, "y": 149.0333, "z": 14.1745},
 				"rotation": {"x": 354.3144, "y": 222.8252, "z": 0.5861}
             },
+			{
+				"rename": "Hole 6 Magic Banjo",
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Gneiss/Villager_HEA_Gneiss_ANIM_Tuning/Gneiss:Rig:Trajectory_Jnt/Gneiss:Rig:ROOT_Jnt/Gneiss:Rig:Spine_01_Jnt/Gneiss:Rig:Spine_02_Jnt/Gneiss:Rig:Spine_Top_Jnt/Props_HEA_Banjo/",
+				"position": {"x": 66.3361, "y": -121.7248, "z": 56.2242},
+				"rotation": {"x": 57.8578, "y": 93.115, "z": 110.9896}
+			},
 
 
 			{
 				"rename": "Hole 7 Tee Table",
 				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
 				"position": {"x": 80.5435, "y": -143.3587, "z": 21.4076},
-				"rotation": {"x":333.1395, "y": 42.194, "z": 195.615},
+				"rotation": {"x": 333.1395, "y": 42.194, "z": 195.615},
 				"stretch": {"x": 4, "y": 2, "z": 3}
 			},
 			{
@@ -146,7 +152,7 @@
 				"uniqueID": "HOLE_SIX_WHITE",
 				"type": "whiteHole",
 				"pairedSingularity": "HOLE_FIVE_BLACK",
-				"position": {"x": 2.7301, "y": 158.6801, "z": 5.4244},
+				"position": {"x": 3.95, "y": 160.7989, "z": 3.8935},
 				"horizonRadius": 0.5,
 				"distortRadius": 0.75,
 				"hasWarpEffects": true
@@ -220,6 +226,16 @@
 				"horizonRadius": 1.5,
 				"distortRadius": 2,
 				"hasWarpEffects": true
+			}
+		],
+		"signals": [
+			{
+				"audio": "planets/Audio/GneissRadio.ogg",
+				"detectionRadius": 75.0,
+				"frequency": "Easter Egg",
+				"name": "The Magic Banjo",
+				"position": {"x": 66.3361, "y": -121.7248, "z": 56.2242},
+				"reveals": "FOUND_BANJO_FACT"
 			}
 		]
 	},
@@ -317,7 +333,7 @@
 				"rename": "Hourglass Completion Volume",
 				"reveals": [ "HOURGLASS_COMPLETE_FACT" ],
 				"position": {"x": 7.9634, "y": -119.8602, "z": -121.5662},
-				"radius": 3,
+				"radius": 2,
 				"revealOn": "enter",
 				"revealFor": "both"
 			}

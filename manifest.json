@@ -4,7 +4,7 @@
     "author": "Samster68",
     "name": "Hearthian Golf The Front Nine",
     "uniqueName": "Samster68.HearthianGolf",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "owmlVersion": "2.13.0",
     "dependencies": [ "xen.NewHorizons", "dgarro.SuitLog", "xen.AchievementTracker" ]
 }

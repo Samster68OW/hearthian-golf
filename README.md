@@ -1,7 +1,7 @@
 ![alt text](developer/thumbnail.png?raw=true)
 
 # Hearthian Golf
-Hit the greens in this simple mod where you play golf with your scout! Play with your friends using [Quantum Space Buddies](https://outerwildsmods.com/mods/quantumspacebuddies/) and shoot for the lowest score in Hearthian Golf! This version of the mod only includes the front nine holes. I plan to add more in the future! Although not inspired by this, I found an [old Reddit post](https://www.reddit.com/r/outerwilds/comments/ekrhkn/hearthian_golf/) that gives a similar ruleset to this mod.
+Hit the greens in this simple mod where you play golf with your scout! Play with your friends using [Quantum Space Buddies](https://outerwildsmods.com/mods/quantumspacebuddies/) and shoot for the lowest score in Hearthian Golf! This version of the mod only includes nine holes. Although not inspired by this, I found an [old Reddit post](https://www.reddit.com/r/outerwilds/comments/ekrhkn/hearthian_golf/) that gives a similar ruleset to this mod.
 
 This mod is a unofficial addon for Outer Wilds. It is designed for players that have already completed the main story. Contains spoilers for the base game. Note: This is an addon for xen's [New Horizons](https://outerwildsmods.com/mods/newhorizons/) mod. It also makes use of the [Suit Log](https://outerwildsmods.com/mods/suitlog/) mod.
 

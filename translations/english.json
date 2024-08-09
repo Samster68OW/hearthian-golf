@@ -8,9 +8,13 @@
         "CLUBHOUSE_INVITATION_PAGE_3": "I've added the location of the Clubhouse to your ship log. Once you've got the launch codes, use your new <![CDATA[<color=orange>Suit Log</color>]]> to mark the location of the Clubhouse, then meet me there!",
 
 
-        "HIGHSCORE_PAPER_PAGE_1": "Heya! Just a quick note from your favorite astronaut, Feldspar!",
-        "HIGHSCORE_PAPER_PAGE_2": "In my quest to conquer the Outer Wilds, I had to first conquer this golf course. I was able to do so in <![CDATA[<color=orange>32 strokes</color>]]>!",
-        "HIGHSCORE_PAPER_PAGE_3": "Good luck if you think you can beat it!",
+        "FELDSPAR_PAPER_PAGE_1": "Heya! Just a quick note from your favorite astronaut, Feldspar!",
+        "FELDSPAR_PAPER_PAGE_2": "In my quest to conquer the Outer Wilds, I had to first conquer this golf course. I was able to do so in <![CDATA[<color=orange>32 strokes</color>]]>!",
+        "FELDSPAR_PAPER_PAGE_3": "Good luck if you think you can beat it!",
+
+        "ERNESTO_PAPER_PAGE_1": "Yo! What's up? It's your favorite sentient anglerfish, Ernesto! I thought I would give this golf course a shot myself.",
+        "ERNESTO_PAPER_PAGE_2": "And I gotta say... Feldspar? More like FeldsPAR! I was able to complete the course in only <![CDATA[<color=orange>27 strokes</color>]]>!",
+        "ERNESTO_PAPER_PAGE_3": "Good luck beating that score, four eyes!",
 
 
         "CHIP_NODE_S_PAGE_1": "Heya, hatchling! Welcome to the Clubhouse!",
@@ -39,7 +43,6 @@
 
         "CHIP_NODE_5_PAGE_1": "Congratulations, hatchling! How'd you do? Are you satisfied with your score?",
         "CHIP_NODE_5_PAGE_2": "If you want to attempt a hole again, remember that you can use your Suit Log to mark the tee of the hole. If you're all done for now, thanks for playing!",
-        "CHIP_NODE_5_PAGE_3": "I am currently working with other hearthians to develop <![CDATA[<color=orange>more golf courses</color>]]>. I'll give you a ring when they're done.",
         
         "CHIP_NODE_E_PAGE_1": "Have fun out there! I've put all the rules to Hearthian Golf in your ship log. <![CDATA[<color=orange>Return to me</color>]]> when you are finished!"
 
@@ -53,7 +56,8 @@
         "GOLF_CLUBHOUSE_RUMOR_DESC": "There is a note located at my campsite.",
         "GOLF_CLUBHOUSE_FACT_DESC": "The Clubhouse is located somewhere outside the Village. I should use my Suit Log to mark the location on my HUD.",
         "MET_CHIP_FACT_DESC": "Chip introduced me to Hearthian Golf. The first tee is located behind the Clubhouse.",
-        "CURRENT_HIGHSCORE_FACT_DESC": "Feldspar was able to score 32 on the golf course.",
+        "FELDSPAR_HIGHSCORE_FACT_DESC": "Feldspar was able to score <![CDATA[<color=green>32 strokes</color>]]> on the golf course.",
+        "ERNESTO_HIGHSCORE_FACT_DESC": "Ernesto was able to score <![CDATA[<color=green>27 strokes</color>]]> on the golf course.",
         "FINISHED_COURSE_FACT_DESC": "I finished The Front Nine course!",
 
 
@@ -76,6 +80,7 @@
         "TIMBER_HEARTH_COMPLETE_FACT_DESC": "I have completed all of the Timber Hearth holes.",
         "HOLE_SIX_ENTRY_NAME": "Hole 6",
         "HOLE_SIX_HOLE_FACT_DESC": "<![CDATA[<color=green>Hole 6</color>]]> Chert (260m, Par 4)",
+        "FOUND_BANJO_FACT_DESC": "I found a Magic Banjo on Hole 6.",
         "HOLE_SEVEN_ENTRY_NAME": "Hole 7",
         "HOLE_SEVEN_HOLE_FACT_DESC": "<![CDATA[<color=green>Hole 7:</color>]]> Locator (190m, Par 4)",
         "HOLE_EIGHT_ENTRY_NAME": "Hole 8",
@@ -112,6 +117,10 @@
         "HG_HOURGLASS_MASTERY" : {
 			"Name": "Hourglass Mastery",
 			"Description": "Complete the Hourglass Twin holes."
+		},
+        "HG_FOUND_BANJO" : {
+			"Name": "Who left this here?",
+			"Description": "Locate the Magic Banjo."
 		},
         "HG_FRONT_NINE_MASTER" : {
 			"Name": "Front Nine Master",

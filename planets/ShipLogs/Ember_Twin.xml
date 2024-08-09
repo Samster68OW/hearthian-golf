@@ -19,6 +19,10 @@
       <ID>HOLE_SIX_HOLE_FACT</ID>
       <Text>HOLE_SIX_HOLE_FACT_DESC</Text>
     </ExploreFact>
+    <ExploreFact>
+      <ID>FOUND_BANJO_FACT</ID>
+      <Text>FOUND_BANJO_FACT_DESC</Text>
+    </ExploreFact>
 
     <Entry>
       <ID>HOLE_SIX_TEE</ID>

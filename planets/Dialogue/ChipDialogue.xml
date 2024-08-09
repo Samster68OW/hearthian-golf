@@ -85,7 +85,6 @@
 		<Dialogue>
 			<Page>CHIP_NODE_5_PAGE_1</Page>
 			<Page>CHIP_NODE_5_PAGE_2</Page>
-			<Page>CHIP_NODE_5_PAGE_3</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>FINISHED_COURSE_FACT</FactID>
